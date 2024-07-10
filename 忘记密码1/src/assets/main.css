@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image:url('https://bpic.588ku.com/back_list_pic/22/10/26/de38065a781ef473d7ab158acba2c9f1.jpg!/fw/630/quality/90/unsharp/true/compress/true');
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+	
+	align-items: center;
+
+	min-height: 100vh;
+	margin: 0;
+	background-repeat: no-repeat;
+}
+
+#lan {
+
+	width:100vw;
+	background-color:#3079BE;
+	top:0;
+	
+    
+	padding:38px;
+	
+	
+  
+  }
+  .tu{
+	margin: auto;
+	background-image: url("D:\项目组\vue3项目\忘记密码1\src\components\屏幕截图 2024-07-03 115549.png");
+	background-repeat: no-repeat;
+  }
+
+.container {
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 25px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	width: 400px;
+	max-width: 90%;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
+.header {
+	border-bottom: 1px solid #f0f0f0;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding:20px;
+	border-radius: 25px 25px 0px 0px;
+	
+	
+}
+
+.header h2 {
+	margin: 0;
+}
+
+.form {
+	padding: 30px 40px;	
+}
+
+.form-control {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+.form-control input {
+	border: 2px solid #cac4c4;
+	border-radius: 4px;
+	display: block;
+	font-family: inherit;
+	font-size: 14px;
+	padding: 10px;
+	width: 100%;
+}
+
+.form-control input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.form-control.error input {
+	border-color: #e74c3c;
+	position: relative;
+}
+
+.form-control .error-message {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form-control.error .error-message {
+	visibility: visible;
+}
+
+.button1 {
+	background-color: rgba(255, 255, 255, 0.6);
+	border: 2px solid  rgba(255, 255, 255, 0.6);
+	border-radius: 4px;
+	color: black;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+	cursor: pointer;
+}
+
+.button2{
+	background-color: rgba(255, 255, 255, 0.6);
+	border: 2px solid rgba(255, 255, 255, 0.6);
+	width: 40%;
+	padding:10px;
+	color:black;
+	border-radius: 15px;
+}
